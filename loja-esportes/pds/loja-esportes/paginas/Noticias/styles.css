@@ -1,0 +1,14 @@
+
+#conteiner_video{
+    margin-top: 50px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+#conteiner_video video{
+    width: 1000px;
+    
+}
