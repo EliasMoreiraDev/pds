@@ -1,0 +1,21 @@
+
+#banner-video{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+#banner-video audio{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+#banner-video h1{
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+video, iframe{
+    width: 1000px;
+    height: 565px;
+    
+}

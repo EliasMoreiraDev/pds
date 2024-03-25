@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+main{
+    height: 50vh;
+    font-family: 'Arvo', serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+form{
+    width: 530px;
+    margin: auto;
+}
+.campos{
+    width: 550px;
+}
+#botoes{
+    display: flex;
+    justify-content: right;
+    
+}
+form input[type = text], input[type = email]{
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    
+
+}
+form input[type = submit], input[type = reset]{
+    font-family: 'Arvo', serif;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    font-size: 12pt;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+form input[type = submit]{
+    background-color: #172B50;
+}
+form input[type = reset]{
+    background-color: #E82840;
+}
+form input[type = submit]:hover{
+    background-color: #2e4f8b;
+    
+}
+form input[type = reset]:hover{
+    background-color: #ce182d;
+}
