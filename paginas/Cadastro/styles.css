@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rowdies:wght@300;400;700&display=swap');
+
+main{
+    width: 100vw;
+    
+    margin-top: 100px;
+}
+#login{
+    display: flex;
+    margin: auto;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.233);
+    
+    border-radius: 10px;
+    justify-content: center;
+    width: 500px;
+}
+#login img{
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.campo{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.campo input{
+    padding: 7px;
+    margin-left: 5px;
+    
+
+}
+#formulario{
+    margin-left: 20px;
+    
+}
+form input[type = email], input[type = password]{
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    
+
+}
+.botao{
+    
+    display: block;
+    font-size: 1em;
+    width:60%;
+    height: 40px;
+
+    background-color: #E82840;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: #E82840;
+}
+
